@@ -406,6 +406,7 @@ class _FilterWiget extends State<FilterWiget> {
                 primary: Colors.green,
                 minimumSize: const Size.fromHeight(55),
               )),
-        ));
+        )
+    );
   }
 }

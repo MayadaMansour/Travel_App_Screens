@@ -82,6 +82,21 @@ class HomeScreen extends StatelessWidget {
 
           ],
         ),
+        floatingActionButton:FloatingActionButton.extended(
+          onPressed: () {
+          },
+          label: const Text("Map",style: TextStyle(fontSize: 20),),
+          icon: const Icon(
+            Icons.location_on_outlined,
+            size: 30,
+          ),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+
+          foregroundColor: Colors.white,
+           backgroundColor: Colors.green,
+        ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+
       ),
     );
   }
